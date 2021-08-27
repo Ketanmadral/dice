@@ -1,0 +1,82 @@
+ .row{
+        background-color: blue;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+    
+      .col-1{
+        background-color: red;
+        width: 400px;
+        height: 500px;
+        
+      }
+      .col-2{
+        background-color: green;
+        width: 400px;
+        height: 500px;
+        
+      }
+      .card{
+        text-align: center;
+        }
+      img{
+        position: absolute;
+        left: 440px;
+        top:185px;
+       /* position: relative;
+        left: 150px;
+        top:-30px;*/
+       }
+
+     span{
+       font-size: 75px;
+     }
+    .rollbtn{
+       
+       position:absolute ;
+       left:435px;
+       top: 360px;
+       }
+   table{
+       background-color: yellow;
+       margin-top: 80px;
+     }
+    
+  button{
+      background-color: black;
+      border: 2px solid black;
+      color:  white;
+      padding: 10px;
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .newbtn{
+      position:absolute ;
+       left:445px;
+       top: 75px;
+       
+    }
+   
+    h1{
+        margin-top: 75px;
+      }
+    
+    #Score1{
+       font-size: 20px;
+     }
+     #Score2{
+       font-size: 20px;
+     }
+     
+    #msg1{
+      margin-top:50px;
+    }
+    
+   #msg2{
+      margin-top:50px;
+    }

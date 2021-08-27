@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"> </script>
+ </head>
+  <body onload="bodyload()">
+  <div class="row">
+    <div class="col-1" id="c1">
+    <div class="card">
+    
+      <div class="card-header">
+      <div class="newbtn">
+       <button onclick="location.reload()">NEW GAME</button>
+        </div>
+       <h1>PLAYER 1</h1>
+      </div>
+      <div class="card-body">
+       <span id="num1"></span><br>
+       <img  id="pic" width="100px" height="100px">
+       
+   
+      </div>
+      <div class="card-footer">
+       <table border="0" frame="box" cellpadding="10px" align="center">
+         <tr>
+         <th>SCORE</th>
+         </tr>
+         <tr>
+           <td id="Score1"></td>
+         </tr>
+       </table>
+     <div class=" rollbtn">
+        <button id="btn1" onclick="player1Click()">ROLL DICE 1 🎲</button>
+        <button id="btn2" onclick="player2Click()">ROLL DICE 2 🎲</button>
+      </div>
+       <h2 id="msg1"></h2>
+      </div>
+   </div>
+</div>
+    <div class="col-2" id="c2">
+   <div class="card">
+      <div class="card-header">
+        <h1>PLAYER 2</h1>
+      </div>
+      <div class="card-body">
+        <span id="num2"></span>
+      </div>
+      <div class="card-footer">
+    <table border="0" frame="box" cellpadding="10px" align="center">
+         <tr>
+         <th>SCORE</th>
+         </tr>
+         <tr>
+           <td id="Score2"></td>
+         </tr>
+       </table>
+   <h2 id="msg2"></h2>
+    </div>
+ 
+    </div>
+    
+  </div>
+
+</div>
+</body>
+</html>
